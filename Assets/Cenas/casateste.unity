@@ -2939,6 +2939,7 @@ MonoBehaviour:
   InteragirTutorial: {fileID: 49341035}
   TeleportThis: {fileID: 1475619497}
   NewPosition: {x: 15.7, y: -5.43, z: 0}
+  cooldownTempo: 0.2
 --- !u!61 &199285997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4086,7 +4087,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &321066177
 Transform:
   m_ObjectHideFlags: 0
@@ -5068,6 +5069,7 @@ MonoBehaviour:
   InteragirTutorial: {fileID: 1485860666}
   TeleportThis: {fileID: 1475619497}
   NewPosition: {x: 22, y: 8, z: 0}
+  cooldownTempo: 0.2
 --- !u!61 &502576833
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6504,7 +6506,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteragirTutorial: {fileID: 1026081622}
   TeleportThis: {fileID: 1475619497}
-  NewPosition: {x: 41.7, y: 17.8, z: 0}
+  NewPosition: {x: 10, y: 17.8, z: 0}
+  cooldownTempo: 0.2
 --- !u!61 &666916009
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15790,6 +15793,7 @@ MonoBehaviour:
   InteragirTutorial: {fileID: 63096187}
   TeleportThis: {fileID: 1475619497}
   NewPosition: {x: 42.5, y: 29.6, z: 0}
+  cooldownTempo: 0.2
 --- !u!61 &1577015232
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18092,6 +18096,7 @@ MonoBehaviour:
   InteragirTutorial: {fileID: 1111112851}
   TeleportThis: {fileID: 1475619497}
   NewPosition: {x: 28.5, y: 18, z: 0}
+  cooldownTempo: 0.2
 --- !u!61 &1831412050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23300,7 +23305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1909279051724701310, guid: 5c3f5bcdcf0734244a1e806744fe3bd5, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5087824248311275737, guid: 5c3f5bcdcf0734244a1e806744fe3bd5, type: 3}
       propertyPath: m_LocalPosition.x
